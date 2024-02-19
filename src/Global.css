@@ -1,0 +1,8 @@
+.modern-gradient {
+  background-image: radial-gradient(
+    farthest-corner circle at 100% 0% in oklch,
+    oklch(80% 0.4 222) 0%,
+    59%,
+    oklch(35% 0.5 313) 100%
+  );
+}
