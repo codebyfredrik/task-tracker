@@ -3,13 +3,15 @@
 export default {
   content: ['./src/**/*.{mjs,js,ts,jsx,tsx}'],
   theme: {
-    // colors: {
-    //   primary: 'oklch(66.28% 0.24 151.4 / <alpha-value>)',
-    //   secondary: 'oklch(66.35% 0.299 7.04 / <alpha-value>)',
-    //   tertiary:
-    //     'oklch(65.49% 0.1937998046114747 239.2963644488785 / <alpha-value>)'
-    // },
-    extend: {}
+    extend: {
+      colors: {
+        pink1: 'oklch(65.59% 0.298 354.31 / <alpha-value>)',
+        indigo1: 'oklch(50% 0.303 277.37 / <alpha-value>)'
+      },
+      boxShadow: {
+        xl: '0 20px 25px -5px oklch(0 0 0 / 0.1), 0 10px 10px -5px oklch(0 0 0 / 0.06)'
+      }
+    }
   },
   plugins: []
 }
