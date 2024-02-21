@@ -1,80 +1,26 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+# 📝 Task Tracker
 
-# React Tailwindcss Boilerplate build with Vite
+Task Tracker is a dynamic, user-friendly web application built with React, TypeScript, React Aria and Tailwind CSS. It allows users to efficiently manage their tasks by adding, completing, and deleting tasks.
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+## 🚀 Features
 
-## What is inside?
+- **Task Management**: Add, complete, and delete tasks with ease.
+- **Filtering**: View tasks based on their status (all, not started, in progress, completed).
 
-This project uses many tools like:
+## 🎮 Demo
 
-- [Vite](https://vitejs.dev)
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Vitest](https://vitest.dev)
-- [Testing Library](https://testing-library.com)
-- [Tailwindcss](https://tailwindcss.com)
-- [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
+Check out the live demo [here](https://task-tracker-6hxbd9bji-codebyfredrik.vercel.app/).
 
-## Getting Started
+## 🛠️ Tech Stack
 
-### Install
+- **React**: For building the user interface.
+- **TypeScript**: For adding static types to JavaScript, enhancing developer productivity and code quality.
+- **React Aria**: For accessible components.
+- **Tailwind CSS**: For utility-first CSS.
 
-Create the project.
+## 📦 Installation
 
-```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
-```
-
-Access the project directory.
-
-```bash
-cd my-app
-```
-
-Install dependencies.
-
-```bash
-pnpm install
-```
-
-Serve with hot reload at <http://localhost:5173>.
-
-```bash
-pnpm run dev
-```
-
-### Lint
-
-```bash
-pnpm run lint
-```
-
-### Typecheck
-
-```bash
-pnpm run typecheck
-```
-
-### Build
-
-```bash
-pnpm run build
-```
-
-### Test
-
-```bash
-pnpm run test
-```
-
-View and interact with your tests via UI.
-
-```bash
-pnpm run test:ui
-```
-
-## License
-
-This project is licensed under the MIT License.
+1. Clone the repository: `git clone https://github.com/codebyfredrik/task-tracker.git`
+2. Install the dependencies: `pnpm install`
+3. Start the server: `pnpm run dev`
+4. Open [http://localhost:5173/](http://localhost:5173/) to view it in the browser.
