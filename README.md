@@ -9,7 +9,7 @@ Task Tracker is a dynamic, user-friendly web application built with React, TypeS
 
 ## 🎮 Demo
 
-Check out the live demo [here](https://task-tracker-6hxbd9bji-codebyfredrik.vercel.app/).
+Check out the live demo [here](https://task-tracker-gamma-seven.vercel.app/).
 
 ## 🛠️ Tech Stack
 
