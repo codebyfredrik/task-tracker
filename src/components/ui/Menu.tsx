@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react'
-import React from 'react'
+import * as React from 'react'
 import {
   Menu as AriaMenu,
   MenuItem as AriaMenuItem,
@@ -9,6 +9,7 @@ import {
   SeparatorProps,
   composeRenderProps
 } from 'react-aria-components'
+
 import {
   DropdownSection,
   DropdownSectionProps,

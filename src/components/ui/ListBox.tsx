@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react'
-import React from 'react'
+import * as React from 'react'
 import {
   ListBox as AriaListBox,
   ListBoxItem as AriaListBoxItem,
@@ -12,6 +12,7 @@ import {
   composeRenderProps
 } from 'react-aria-components'
 import { tv } from 'tailwind-variants'
+
 import { composeTailwindRenderProps, focusRing } from '../utils'
 
 interface ListBoxProps<T>

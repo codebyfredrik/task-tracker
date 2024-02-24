@@ -1,14 +1,15 @@
-import React from 'react'
-import { DialogTrigger } from 'react-aria-components'
-import { Modal } from './ui/Modal'
 import { PlusIcon } from 'lucide-react'
+import * as React from 'react'
+import { DialogTrigger } from 'react-aria-components'
 import { useListData } from 'react-stately'
+
+import { FormDialog } from './FormDialog'
+import { List } from './List'
 import { Button } from './ui/Button'
+import { Modal } from './ui/Modal'
 import { tasks } from '../data/tasks'
 import type { Task, TaskWithOptionalId } from '../types'
 import { generateId } from '../utils'
-import { FormDialog } from './FormDialog'
-import { List } from './List'
 
 export function TaskBoard({
   multipleColumns = false,

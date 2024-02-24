@@ -1,10 +1,10 @@
+import * as React from 'react'
 import {
-  OverlayArrow,
   Popover as AriaPopover,
   PopoverProps as AriaPopoverProps,
+  OverlayArrow,
   composeRenderProps
 } from 'react-aria-components'
-import React from 'react'
 import { tv } from 'tailwind-variants'
 
 export interface PopoverProps extends Omit<AriaPopoverProps, 'children'> {
@@ -12,6 +12,7 @@ export interface PopoverProps extends Omit<AriaPopoverProps, 'children'> {
   children: React.ReactNode
 }
 
+// eslint-disable-next-line tailwindcss/no-custom-classname
 const styles = tv({
   base: 'rounded-xl border border-black/10 bg-white bg-clip-padding text-slate-700 shadow-2xl dark:border-white/[15%] dark:bg-zinc-900/70 dark:text-zinc-300 dark:backdrop-blur-2xl dark:backdrop-saturate-200 forced-colors:bg-[Canvas]',
   variants: {

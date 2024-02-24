@@ -1,5 +1,5 @@
 import { ChevronDown } from 'lucide-react'
-import React from 'react'
+import * as React from 'react'
 import {
   Select as AriaSelect,
   SelectProps as AriaSelectProps,
@@ -10,6 +10,7 @@ import {
   ValidationResult
 } from 'react-aria-components'
 import { tv } from 'tailwind-variants'
+
 import { Description, FieldError, Label } from './Field'
 import { DropdownItem, DropdownSection, DropdownSectionProps } from './ListBox'
 import { Popover } from './Popover'

@@ -1,7 +1,8 @@
-import React from 'react'
 import { useMediaQuery, usePrevious } from '@react-hookz/web'
-import { Switch } from './ui/Switch'
+import React from 'react'
+
 import { TaskBoard } from './TaskBoard'
+import { Switch } from './ui/Switch'
 
 export function App() {
   const [isMultipleColumns, setMultipleColumns] = React.useState(false)

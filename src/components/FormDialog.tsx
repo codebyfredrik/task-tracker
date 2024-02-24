@@ -1,9 +1,10 @@
-import React from 'react'
-import { Heading, Form } from 'react-aria-components'
-import { TextField } from './ui/TextField'
+import * as React from 'react'
+import { Form, Heading } from 'react-aria-components'
+
+import { Button } from './ui/Button'
 import { Dialog } from './ui/Dialog'
 import { Select, SelectItem } from './ui/Select'
-import { Button } from './ui/Button'
+import { TextField } from './ui/TextField'
 import type { Priority, Status, Task, TaskWithOptionalId } from '../types'
 
 type Props = {
