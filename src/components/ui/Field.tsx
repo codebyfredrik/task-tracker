@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import {
   FieldErrorProps,
   Group,
@@ -14,6 +14,7 @@ import {
 } from 'react-aria-components'
 import { twMerge } from 'tailwind-merge'
 import { tv } from 'tailwind-variants'
+
 import { composeTailwindRenderProps, focusRing } from '../utils'
 
 export function Label(props: LabelProps) {

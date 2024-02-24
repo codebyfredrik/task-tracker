@@ -1,18 +1,19 @@
-import React from 'react'
+import { PlusIcon } from 'lucide-react'
+import * as React from 'react'
 import {
+  DialogTrigger,
   DropIndicator,
   GridList,
   isTextDropItem,
-  useDragAndDrop,
-  DialogTrigger
+  useDragAndDrop
 } from 'react-aria-components'
-import { Modal } from './ui/Modal'
-import { PlusIcon } from 'lucide-react'
 import type { ListData } from 'react-stately'
-import { Button } from './ui/Button'
-import type { Status, Task, TaskWithOptionalId } from '../types'
+
 import { Card } from './Card'
 import { FormDialog } from './FormDialog'
+import { Button } from './ui/Button'
+import { Modal } from './ui/Modal'
+import type { Status, Task, TaskWithOptionalId } from '../types'
 
 type List = {
   children?: React.ReactNode

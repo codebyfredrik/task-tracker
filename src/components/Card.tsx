@@ -1,15 +1,16 @@
-import React from 'react'
+import { MoreHorizontalIcon } from 'lucide-react'
+import * as React from 'react'
 import {
   GridListItem,
-  Text,
+  type Key,
   MenuTrigger,
-  type Key
+  Text
 } from 'react-aria-components'
-import { MoreHorizontalIcon } from 'lucide-react'
-import { Modal } from './ui/Modal'
-import { Menu, MenuItem } from './ui/Menu'
-import { Button } from './ui/Button'
+
 import { FormDialog } from './FormDialog'
+import { Button } from './ui/Button'
+import { Menu, MenuItem } from './ui/Menu'
+import { Modal } from './ui/Modal'
 import type { Status, Task, TaskWithOptionalId } from '../types'
 
 type Props = {
